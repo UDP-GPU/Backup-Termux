@@ -45,7 +45,7 @@ case "$1" in
         restore "$@"
         ;;
     *)
-        echo "Unknown command: $1. Use 'backup' ot 'restore'."
+        echo "Unknown command: $1. Use 'backup' or 'restore'."
         exit 1
         ;;
 esac
